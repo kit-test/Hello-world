@@ -12,7 +12,7 @@ func check(e error)  {
 	}
 }
 func main()  {
-	fmt.Printf("=========")
+	fmt.Printf("*********")
 	date, err := ioutil.ReadFile("../abc.txt")
 	fmt.Printf("=========")
 	check(err)
